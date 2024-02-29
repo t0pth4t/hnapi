@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2022", // Target JavaScript language version for output
+    "module": "commonjs", // Module code generation for Node.js or other environments
+    "lib": ["ESNext"], // Include standard libraries (DOM, etc.) based on target
+    "allowJs": true, // Allow JavaScript files in the project
+    "outDir": "./dist", // Output directory for compiled JavaScript
+    "rootDir": ".", // Source code directory
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Improved interop between CommonJS and ES Modules
+
+    /* Strict Checks */
+    "noImplicitAny": true, // Disallow implicit 'any' types
+    "strictNullChecks": true, // Enable strict null and undefined checks
+
+    /* Module Resolution */
+    "moduleResolution": "node", // Assume Node.js module resolution strategy
+    "baseUrl": ".", // Base directory for resolving non-absolute module names
+    "resolveJsonModule": true, // json imports
+    "allowSyntheticDefaultImports": true,
+    /* Emit */
+    "sourceMap": true, // Generate source maps for debugging
+    "declaration": true // Generate .d.ts (type declaration) files
+  }
+}
